@@ -150,13 +150,8 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTACT -->
 
-## 📧 Contact
 
-Siddhesh Desai - [@thesiddheshdesai](https://www.linkedin.com/in/thesiddheshdesai/) - siddheshdesai777@gmail.com
-
-Project Link: [https://github.com/siddhesh-desai/Worker-Connect](https://github.com/siddhesh-desai/Worker-Connect)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
