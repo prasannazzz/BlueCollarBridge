@@ -15,21 +15,10 @@
     <br>
     <br>
 
-  <h3 align="center"><b>Worker-Connect</b></h3>
+  <h3 align="center"><b>Blue Bridge</b></h3>
 
-  <h2>🏆Winner of the 1st Prize at <a href="https://unscript-rookies-hackathon-k.devfolio.co/projects?prizes=3053b1db4c4d423da50280b2119fb983&show_winners=true">UnScript Rookies Hackathon 2k23</a></h2>
+    Blue Bridge is a comprehensive platform designed to bridge the gap between blue-collar workers and individuals in need of their services. 
 
-  <p align="center">
-    Worker-Connect is a comprehensive platform designed to bridge the gap between blue-collar workers and individuals in need of their services. 
-    <br />
-    <br>
-    <a href="https://github.com/siddhesh-desai/Worker-Connect"><strong>Explore the docs »</strong></a>
-    <br />
-    <a href="https://github.com/siddhesh-desai/Worker-Connect">View Demo</a>
-    ·
-    <a href="https://github.com/siddhesh-desai/Worker-Connect/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/siddhesh-desai/Worker-Connect/issues">Request Feature</a>
   </p>
 </div>
 
@@ -38,7 +27,7 @@
 
 ## ♾️ About The Project
 
-Worker-Connect is a comprehensive platform designed to bridge the gap between blue-collar workers and individuals in need of their services. The project offers a user-friendly web application where workers can list their services, showcase their skills through images, and connect with potential clients. The platform includes a price negotiation system and encompasses three key sides: the admin side, worker side, and client side.
+Blue Bridge is a comprehensive platform designed to bridge the gap between blue-collar workers and individuals in need of their services. The project offers a user-friendly web application where workers can list their services, showcase their skills through images, and connect with potential clients. The platform includes a price negotiation system and encompasses three key sides: the admin side, worker side, and client side.
 
 On the admin side, the platform ensures the authenticity and quality of workers by approving them based on their skills and identity verification. This step ensures that clients can trust the workers listed on the platform, fostering a reliable and secure environment for both parties involved.
 
@@ -170,15 +159,6 @@ Siddhesh Desai - [@thesiddheshdesai](https://www.linkedin.com/in/thesiddheshdesa
 Project Link: [https://github.com/siddhesh-desai/Worker-Connect](https://github.com/siddhesh-desai/Worker-Connect)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## ✨ Contributors
-
-Thanks go to these wonderful people:
-
-- [Siddhesh Desai](https://github.com/siddhesh-desai/)
-- [Rajkumar Dongre](https://github.com/rajkumardongre/)
-- [Sanket Disale](https://github.com/sanketdisale871/)
-- [Samarth Bura](https://github.com/samarthNV/)
 
 [contributors-shield]: https://img.shields.io/github/contributors/siddhesh-desai/Worker-Connect.svg?style=for-the-badge
 [contributors-url]: https://github.com/siddhesh-desai/Worker-Connect/graphs/contributors
