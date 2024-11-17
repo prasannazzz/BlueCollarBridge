@@ -93,22 +93,6 @@ Follow the below steps to set up the project locally:
 
 You need to setup you MongoDB Clusters priorly and then follow the steps.
 
-### Installation
-
-1. Clone the repository
-
-   ```sh
-   git clone https://github.com/siddhesh-desai/Worker-Connect.git
-   ```
-
-2. Install the dependencies:
-
-   ```sh
-   npm i
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 💡 Features
 
 <br>
