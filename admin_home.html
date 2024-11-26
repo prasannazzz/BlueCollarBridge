@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Home - Admin</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+    <link href="https://assets.website-files.com/62aee78456e4207786ac4d18/62b0fad1a8cf6a4c26b3cb5e_Faivcon%2032.svg"
+        rel="shortcut icon" type="image/x-icon" />
+    <link href="https://assets.website-files.com/62aee78456e4207786ac4d18/62b0fad95898ce119a80c68e_Faivcon%20256.svg"
+        rel="apple-touch-icon" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Add your CSS here -->
+    <style>
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div data-collapse="small" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
+        role="banner" class="nav-bar w-nav">
+        <!-- Navigation and other HTML elements -->
+        <div class="nav-container w-container">
+            <div class="logo-div">
+                <a href="#" aria-current="page" class="logotext" style="margin-right: 275px;"><b>Blue Bridge</b></a>
+            </div>
+
+            <nav role="navigation" class="nav-content w-nav-menu">
+                <div class="nav-menu">
+                    <a href="admin_home.html" class="nav-link w-nav-link" style="color:#1e658f;"><b>Home</b></a>
+                    <a href="verifyworkers.html" class="nav-link w-nav-link">Verify Workers</a>
+                    <a href="admin_cateogory.html" class="nav-link w-nav-link">Categories</a>
+                    <a href="admin_pairings.html" class="nav-link w-nav-link">Pairings</a>
+                    <a href="admin_clients.html" class="nav-link w-nav-link">Clients</a>
+                    <a href="admin_workers.html" class="nav-link w-nav-link">Workers</a>
+                </div>
+                
+                <div class="nav-cta-button-container">
+                    <a href="#" class="nav-link cta-button1 w-nav-link">Log Out</a>
+                </div>
+            </nav>
+            <div class="menu-button w-nav-button">
+                <img src="https://assets.website-files.com/62aee78456e4207786ac4d18/62aee78456e4200f2eac4d49_Menu%20Icon.svg"
+                    loading="lazy" width="24" alt="" class="menu-icon" />
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="page-wrapper">
+        <!-- Content for your page -->
+        <div class="section black-gradient  wf-section">
+            <div class="container">
+                <div class="row">
+                    <div class="grid">
+                      <div class="card" style="width: 90%;">
+                        <div class="card-body" >
+                          <p class="card-text" style="color: #000; font-size: 70px; font-weight: bold;text-align: center;margin-bottom: 0px;">500</p>
+                          <h5 class="card-title" style="color: #710101; font-size: larger; font-weight: bold;margin-top: 0%;text-align: center">Number of Workers</h5>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 90%;">
+                        <div class="card-body" >
+                          <p class="card-text" style="color: #000; font-size: 70px; font-weight: bold;text-align: center;margin-bottom: 0px;">750</p>
+                          <h5 class="card-title" style="color: #c31111; font-size: larger; font-weight: bold;margin-top: 0%;text-align: center">Number of Clients</h5>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="section light-color-gradient  wf-section" style="padding-top:3%;">
+        <div class="container w-container">
+            <div class="text-box _1200px center-align " >
+                <h2 class="heading h2">Pending Worker Requests</h2>
+                
+                <table class="styled-table">
+                    <thead>
+                        <tr >
+                            <th>Worker Name</th>
+                            <th>Email</th>
+                            <th>Mobile Number</th>
+                            <th>ID Proof</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="t-name">Ayush</td>
+                            <td>dom@gmail.com</td>
+                            <td>+91 7558612763</td>
+                            <td><button class="table-view-btn" id="viewBtn">View</button></td>
+                            <td> 
+                                <button class="table-accept-btn">Accept</button>
+                                <button class="table-reject-btn">Reject</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="t-name">Krishna Gandhi</td>
+                            <td>dom@gmail.com</td>
+                            <td>+91 7558612763</td>
+                            <td><button class="table-view-btn"id="viewBtn">View</button></td>
+                            <td>
+                                <button class="table-accept-btn">Accept</button>
+                                <button class="table-reject-btn">Reject</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="t-name">Nayan Pawar</td>
+                            <td>dom@gmail.com</td>
+                            <td>+91 7558612763</td>
+                            <td><button class="table-view-btn" id="viewBtn">View</button></td>
+                            <td>
+                                <button class="table-accept-btn">Accept</button>
+                                <button class="table-reject-btn">Reject</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="t-name">Dom David</td>
+                            <td>dom@gmail.com</td>
+                            <td>+91 7558612763</td>
+                            <td><button class="table-view-btn" id="viewBtn">View</button></td>
+                            <td>
+                                <button class="table-accept-btn">Accept</button>
+                                <button class="table-reject-btn">Reject</button>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="particles-js"></div>
+
+    <script>
+        // Initialize Particle.js
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": { "value": "#ffffff" },
+                "shape": { "type": "circle" },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false
+                },
+                "size": {
+                    "value": 3,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": { "enable": true, "mode": "grab" },
+                    "onclick": { "enable": true, "mode": "push" }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

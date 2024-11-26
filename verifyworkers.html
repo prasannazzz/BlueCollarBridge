@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Verify Workers - Admin</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://assets.website-files.com/62aee78456e4207786ac4d18/62b0fad1a8cf6a4c26b3cb5e_Faivcon%2032.svg" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://assets.website-files.com/62aee78456e4207786ac4d18/62b0fad95898ce119a80c68e_Faivcon%20256.svg" rel="apple-touch-icon" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+    <div data-collapse="small" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav-bar w-nav">
+        <div class="nav-container w-container">
+            <div class="logo-div">
+                <a href="#" aria-current="page" class="logotext" style="margin-right: 275px;"><b>Blue Bridge</b></a>
+            </div>
+
+            <nav role="navigation" class="nav-content w-nav-menu">
+                <div class="nav-menu">
+                    <a href="admin_home.html" class="nav-link w-nav-link">Home</a>
+                    <a href="verifyworkers.html" class="nav-link w-nav-link" style="color:#1d57b3;"><b>Verify Workers</b></a>
+                    <a href="admin_cateogory.html" class="nav-link w-nav-link">Categories</a>
+                    <a href="admin_pairings.html" class="nav-link w-nav-link">Pairings</a>
+                    <a href="admin_clients.html" class="nav-link w-nav-link">Clients</a>
+                    <a href="admin_workers.html" class="nav-link w-nav-link">Workers</a>
+                    
+                </div>
+
+                <div class="nav-cta-button-container">
+                    <a href="#" class="nav-link cta-button1 w-nav-link">Log Out</a>
+                </div>
+            </nav>
+            <div class="menu-button w-nav-button">
+                <img src="https://assets.website-files.com/62aee78456e4207786ac4d18/62aee78456e4200f2eac4d49_Menu%20Icon.svg" loading="lazy" width="24" alt="" class="menu-icon" />
+            </div>
+        </div>
+    </div>
+    
+    <div class="page-wrapper">
+        <div class="section light-color-gradient wf-section" style="padding-top:3%">
+            <div class="container w-container">
+                <div class="text-box _1200px center-align">
+                    <h2 class="heading h2">Worker Requests</h2>
+
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>Worker Name</th>
+                                <th>Email</th>
+                                <th>Mobile Number</th>
+                                <th>ID Proof</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="t-name">Nayan Pawar</td>
+                                <td>nayan@gmail.com</td>
+                                <td>+91 7558612763</td>
+                                <td><button class="table-view-btn viewBtn">View</button></td>
+                                <td>
+                                    <button class="table-accept-btn">Accept</button>
+                                    <button class="table-reject-btn">Reject</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="t-name">Prasanna Patil</td>
+                                <td>prasanna@gmail.com</td>
+                                <td>+91 8734901125</td>
+                                <td><button class="table-view-btn viewBtn">View</button></td>
+                                <td>
+                                    <button class="table-accept-btn">Accept</button>
+                                    <button class="table-reject-btn">Reject</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="t-name">Ayush Shirode</td>
+                                <td>ayush@gmail.com</td>
+                                <td>+91 7558612763</td>
+                                <td><button class="table-view-btn viewBtn">View</button></td>
+                                <td>
+                                    <button class="table-accept-btn">Accept</button>
+                                    <button class="table-reject-btn">Reject</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="t-name">Krishna Gandhi</td>
+                                <td>krishna@gmail.com</td>
+                                <td>+91 7558612763</td>
+                                <td><button class="table-view-btn viewBtn">View</button></td>
+                                <td>
+                                    <button class="table-accept-btn">Accept</button>
+                                    <button class="table-reject-btn">Reject</button>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content" style="padding-left: 50px; padding-top: 30px;">
+                <span class="close" id="closeBtn">&times;</span>
+                <p style="font-weight: bold;">Name: Dom David</p>
+                <p style="font-weight: bold;">Email: dom@gmail.com</p>
+                <p style="font-weight: bold;">Mobile: +91 7558612763</p>
+                <p style="font-weight: bold;">Categories: Carpentry</p>
+            </div>
+
+        </div>
+    </div>
+    <div id="particles-js"></div>
+
+    <script>
+        var modal = document.getElementById("myModal");
+        var viewBtns = document.getElementsByClassName("viewBtn");
+        var closeBtn = document.getElementById("closeBtn");
+
+        Array.from(viewBtns).forEach(function(btn) {
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+        });
+
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle"
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false
+                },
+                "size": {
+                    "value": 3,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    }
+                }
+            }
+        });
+    </script>
+    <style>
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+
+</body>
+
+</html>
